@@ -1,7 +1,7 @@
 # 🚀 SmartFailureOps
 
 **SmartFailureOps** é um projeto demonstrativo de **observabilidade inteligente na nuvem**, desenvolvido com foco em **automação, monitoramento e resposta a falhas** usando **AWS Lambda, CloudFormation, Terraform e Docker**.  
-Criado por **Débora Flaviana Martins**, o projeto tem como objetivo provar competências em **infraestrutura como código (IaC)**, **automação serverless** e **boas práticas de segurança na nuvem**.
+Criado por **Débora Martins**, o projeto tem como objetivo provar competências em **infraestrutura como código (IaC)**, **automação serverless** e **boas práticas de segurança na nuvem**.
 
 ---
 
