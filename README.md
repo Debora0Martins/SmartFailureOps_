@@ -76,17 +76,13 @@ Infraestrutura replicável e segura, sem risco de vazamento.
 
 👩‍💻 Autora
 
-Débora Flaviana da Silva Almeida Martins
-📍 Timóteo - MG, Brasil
+Débora  Martins
 💡 Engenheira de Dados em formação | Desenvolvedora Java | Entusiasta em Cloud e DevOps
 📧 ddeboraf.mar@gmail.com
 
 🐙 GitHub: @Debora0Martins
 
 🌟 Licença
-
-Este projeto é de uso educacional e demonstrativo.
-Sinta-se à vontade para usar como modelo para estudos, apresentações ou portfólio.
 
 “Automatizar é multiplicar tempo — e o tempo é o ativo mais valioso da engenharia.” ⏱️
 — Débora Martins
