@@ -1,0 +1,46 @@
+# ===========================
+# 🛡️ PROTEÇÃO DE DADOS AWS
+# ===========================
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+aws_credentials
+.env
+*.pem
+*.key
+*.json
+credentials
+.aws/
+
+# ===========================
+# 🧱 ARTEFATOS DE BUILD (Java / Maven)
+# ===========================
+target/
+*.jar
+*.war
+*.zip
+*.log
+
+# ===========================
+# 🐳 DOCKER
+# ===========================
+.docker/
+docker-compose.override.yml
+*.pid
+
+# ===========================
+# 🧰 IDEs e EDITORES
+# ===========================
+.idea/
+.vscode/
+*.iml
+
+# ===========================
+# 💾 OUTROS
+# ===========================
+*.DS_Store
+*.bak
+*.tmp
+*.swp
+
