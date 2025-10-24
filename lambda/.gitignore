@@ -1,0 +1,32 @@
+# 🔐 AWS e credenciais
+*.pem
+*.key
+aws_credentials
+.env
+
+# ☁️ Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# 🧱 Build e dependências
+target/
+*.jar
+*.zip
+*.log
+
+# ⚙️ IDEs
+.idea/
+.vscode/
+*.iml
+
+# 🧪 Testes e cache
+*.class
+*.out
+.DS_Store
+
+# 🧩 Arquivos locais e scripts temporários
+__pycache__/
+node_modules/
+
