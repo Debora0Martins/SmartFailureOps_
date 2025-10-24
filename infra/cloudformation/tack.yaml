@@ -1,0 +1,161 @@
+{
+    "StackEvents": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "EventId": "bda324a0-b0ff-11f0-8236-0afff654407d",
+            "StackName": "vivo-lab-stack",
+            "LogicalResourceId": "vivo-lab-stack",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-10-24T17:34:49.312000+00:00",
+            "ResourceStatus": "ROLLBACK_COMPLETE"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "EventId": "FalhasTable-DELETE_COMPLETE-2025-10-24T17:34:48.996Z",
+            "StackName": "vivo-lab-stack",
+            "LogicalResourceId": "FalhasTable",
+            "PhysicalResourceId": "vivo_falhas",
+            "ResourceType": "AWS::DynamoDB::Table",
+            "Timestamp": "2025-10-24T17:34:48.996000+00:00",
+            "ResourceStatus": "DELETE_COMPLETE",
+            "ResourceProperties": "{\"TableName\":\"vivo_falhas\",\"AttributeDefinitions\":[{\"AttributeType\":\"S\",\"AttributeName\":\"id\"}],\"BillingMode\":\"PAY_PER_REQUEST\",\"KeySchema\":[{\"KeyType\":\"HASH\",\"AttributeName\":\"id\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "EventId": "FalhaLambdaRole-DELETE_COMPLETE-2025-10-24T17:34:28.591Z",
+            "StackName": "vivo-lab-stack",
+            "LogicalResourceId": "FalhaLambdaRole",
+            "PhysicalResourceId": "vivoLambdaRole",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2025-10-24T17:34:28.591000+00:00",
+            "ResourceStatus": "DELETE_COMPLETE",
+            "ResourceProperties": "{\"ManagedPolicyArns\":[\"arn:aws:iam::aws:policy/AWSLambdaBasicExecutionRole\",\"arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess\"],\"RoleName\":\"vivoLambdaRole\",\"AssumeRolePolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":[{\"Action\":\"sts:AssumeRole\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"lambda.amazonaws.com\"}}]}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "EventId": "FalhasTable-DELETE_IN_PROGRESS-2025-10-24T17:34:27.068Z",
+            "StackName": "vivo-lab-stack",
+            "LogicalResourceId": "FalhasTable",
+            "PhysicalResourceId": "vivo_falhas",
+            "ResourceType": "AWS::DynamoDB::Table",
+            "Timestamp": "2025-10-24T17:34:27.068000+00:00",
+            "ResourceStatus": "DELETE_IN_PROGRESS",
+            "ResourceProperties": "{\"TableName\":\"vivo_falhas\",\"AttributeDefinitions\":[{\"AttributeType\":\"S\",\"AttributeName\":\"id\"}],\"BillingMode\":\"PAY_PER_REQUEST\",\"KeySchema\":[{\"KeyType\":\"HASH\",\"AttributeName\":\"id\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "EventId": "FalhaLambdaRole-DELETE_IN_PROGRESS-2025-10-24T17:34:27.017Z",
+            "StackName": "vivo-lab-stack",
+            "LogicalResourceId": "FalhaLambdaRole",
+            "PhysicalResourceId": "vivoLambdaRole",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2025-10-24T17:34:27.017000+00:00",
+            "ResourceStatus": "DELETE_IN_PROGRESS",
+            "ResourceProperties": "{\"ManagedPolicyArns\":[\"arn:aws:iam::aws:policy/AWSLambdaBasicExecutionRole\",\"arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess\"],\"RoleName\":\"vivoLambdaRole\",\"AssumeRolePolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":[{\"Action\":\"sts:AssumeRole\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"lambda.amazonaws.com\"}}]}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "EventId": "af326570-b0ff-11f0-9452-0affe066184f",
+            "StackName": "vivo-lab-stack",
+            "LogicalResourceId": "vivo-lab-stack",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-10-24T17:34:25.086000+00:00",
+            "ResourceStatus": "ROLLBACK_IN_PROGRESS",
+            "ResourceStatusReason": "The following resource(s) failed to create: [FalhasTable, FalhaLambdaRole]. Rollback requested by user."
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "EventId": "FalhasTable-CREATE_FAILED-2025-10-24T17:34:24.654Z",
+            "StackName": "vivo-lab-stack",
+            "LogicalResourceId": "FalhasTable",
+            "PhysicalResourceId": "vivo_falhas",
+            "ResourceType": "AWS::DynamoDB::Table",
+            "Timestamp": "2025-10-24T17:34:24.654000+00:00",
+            "ResourceStatus": "CREATE_FAILED",
+            "ResourceStatusReason": "Resource creation cancelled",
+            "ResourceProperties": "{\"TableName\":\"vivo_falhas\",\"AttributeDefinitions\":[{\"AttributeType\":\"S\",\"AttributeName\":\"id\"}],\"BillingMode\":\"PAY_PER_REQUEST\",\"KeySchema\":[{\"KeyType\":\"HASH\",\"AttributeName\":\"id\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "EventId": "FalhaLambdaRole-CREATE_FAILED-2025-10-24T17:34:24.325Z",
+            "StackName": "vivo-lab-stack",
+            "LogicalResourceId": "FalhaLambdaRole",
+            "PhysicalResourceId": "vivoLambdaRole",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2025-10-24T17:34:24.325000+00:00",
+            "ResourceStatus": "CREATE_FAILED",
+            "ResourceStatusReason": "Resource handler returned message: \"Policy arn:aws:iam::aws:policy/AWSLambdaBasicExecutionRole does not exist or is not attachable. (Service: Iam, Status Code: 404, Request ID: 2b8c4e69-914c-4504-895a-d3e418f0cc4d) (SDK Attempt Count: 1)\" (RequestToken: a2469308-01f3-c09b-e566-3e7573805412, HandlerErrorCode: NotFound)",
+            "ResourceProperties": "{\"ManagedPolicyArns\":[\"arn:aws:iam::aws:policy/AWSLambdaBasicExecutionRole\",\"arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess\"],\"RoleName\":\"vivoLambdaRole\",\"AssumeRolePolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":[{\"Action\":\"sts:AssumeRole\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"lambda.amazonaws.com\"}}]}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "EventId": "FalhasTable-CREATE_IN_PROGRESS-2025-10-24T17:34:22.770Z",
+            "StackName": "vivo-lab-stack",
+            "LogicalResourceId": "FalhasTable",
+            "PhysicalResourceId": "vivo_falhas",
+            "ResourceType": "AWS::DynamoDB::Table",
+            "Timestamp": "2025-10-24T17:34:22.770000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "Resource creation Initiated",
+            "ResourceProperties": "{\"TableName\":\"vivo_falhas\",\"AttributeDefinitions\":[{\"AttributeType\":\"S\",\"AttributeName\":\"id\"}],\"BillingMode\":\"PAY_PER_REQUEST\",\"KeySchema\":[{\"KeyType\":\"HASH\",\"AttributeName\":\"id\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "EventId": "FalhaLambdaRole-CREATE_IN_PROGRESS-2025-10-24T17:34:22.645Z",
+            "StackName": "vivo-lab-stack",
+            "LogicalResourceId": "FalhaLambdaRole",
+            "PhysicalResourceId": "vivoLambdaRole",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2025-10-24T17:34:22.645000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "Resource creation Initiated",
+            "ResourceProperties": "{\"ManagedPolicyArns\":[\"arn:aws:iam::aws:policy/AWSLambdaBasicExecutionRole\",\"arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess\"],\"RoleName\":\"vivoLambdaRole\",\"AssumeRolePolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":[{\"Action\":\"sts:AssumeRole\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"lambda.amazonaws.com\"}}]}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "EventId": "FalhaLambdaRole-CREATE_IN_PROGRESS-2025-10-24T17:34:21.761Z",
+            "StackName": "vivo-lab-stack",
+            "LogicalResourceId": "FalhaLambdaRole",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2025-10-24T17:34:21.761000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceProperties": "{\"ManagedPolicyArns\":[\"arn:aws:iam::aws:policy/AWSLambdaBasicExecutionRole\",\"arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess\"],\"RoleName\":\"vivoLambdaRole\",\"AssumeRolePolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":[{\"Action\":\"sts:AssumeRole\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"lambda.amazonaws.com\"}}]}}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "EventId": "FalhasTable-CREATE_IN_PROGRESS-2025-10-24T17:34:21.737Z",
+            "StackName": "vivo-lab-stack",
+            "LogicalResourceId": "FalhasTable",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::DynamoDB::Table",
+            "Timestamp": "2025-10-24T17:34:21.737000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceProperties": "{\"TableName\":\"vivo_falhas\",\"AttributeDefinitions\":[{\"AttributeType\":\"S\",\"AttributeName\":\"id\"}],\"BillingMode\":\"PAY_PER_REQUEST\",\"KeySchema\":[{\"KeyType\":\"HASH\",\"AttributeName\":\"id\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "EventId": "abdad600-b0ff-11f0-8414-0affe4208105",
+            "StackName": "vivo-lab-stack",
+            "LogicalResourceId": "vivo-lab-stack",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-10-24T17:34:19.478000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "User Initiated"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "EventId": "a89dd370-b0ff-11f0-b4f2-0affc0eaadc7",
+            "StackName": "vivo-lab-stack",
+            "LogicalResourceId": "vivo-lab-stack",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:928860362626:stack/vivo-lab-stack/65525910-b0ff-11f0-8cb5-0affc792ba1f",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2025-10-24T17:34:14.128000+00:00",
+            "ResourceStatus": "REVIEW_IN_PROGRESS",
+            "ResourceStatusReason": "User Initiated"
+        }
+    ]
+}
