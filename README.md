@@ -3,6 +3,12 @@
 **SmartFailureOps** é um projeto demonstrativo de **observabilidade inteligente na nuvem**, desenvolvido com foco em **automação, monitoramento e resposta a falhas** usando **AWS Lambda, CloudFormation, Terraform e Docker**.  
 Criado por **Débora Martins**, o projeto tem como objetivo provar competências em **infraestrutura como código (IaC)**, **automação serverless** e **boas práticas de segurança na nuvem**.
 
+[![Build Maven](https://img.shields.io/badge/Build-Maven-blue?logo=apachemaven)](https://maven.apache.org/)
+[![Deploy AWS Lambda](https://github.com/Debora0Martins/SmartfailureOps/actions/workflows/deploy-lambda.yml/badge.svg)](https://github.com/Debora0Martins/SmartfailureOps/actions)
+[![CloudFormation](https://img.shields.io/badge/Infra-CloudFormation-orange?logo=amazonaws)](https://aws.amazon.com/cloudformation/)
+[![Terraform](https://img.shields.io/badge/IaC-Terraform-purple?logo=terraform)](https://www.terraform.io/)
+[![Security Protected](https://img.shields.io/badge/Security-Protected-green?logo=shield)](#)
+
 ---
 
 ## 🧠 Visão Geral
@@ -15,6 +21,40 @@ O sistema simula um ambiente de monitoramento de rede na AWS:
 - O deploy é totalmente automatizado, podendo ser containerizado com **Docker** para ambientes locais.
 
 ---
+### ☁️ **Descrição**
+O **SmartFailureOps** é um laboratório de automação e observabilidade em nuvem baseado em **AWS Lambda + Java + Terraform**, desenvolvido como demo para ambientes de **Detecção e Tratamento de Falhas** na nuvem.
+
+---
+
+### ⚙️ **Tecnologias principais**
+
+- ☕ Java 17 + Maven  
+- 🧩 AWS Lambda (Falhas e Tratamento)  
+- 🏗️ AWS CloudFormation e Terraform  
+- 🐳 Docker e AWS CloudShell  
+- 🔐 Segurança por `.gitignore` e IAM Policies  
+- 🧠 Estrutura modular: `lambda/`, `lambda-tratamento/`, `infra/`
+
+---
+
+### 📊 **Status**
+
+| Etapa | Estado | Detalhes |
+|-------|---------|----------|
+| Build | ✅ Sucesso (Maven) |
+| Lambda Falhas | 🟢 Ativa |
+| Lambda Tratamento | 🟢 Ativa |
+| Terraform | ⚙️ Aplicado |
+| CloudFormation | ☁️ Concluído |
+| Segurança GitHub | 🔒 Protegida |
+
+---
+
+### 💡 **Objetivo**
+
+Demonstrar conhecimento técnico em:
+- Integração entre AWS e pipelines CI/CD
+- Boas práticas de IaC (Infra as Code)
 
 ## ⚙️ Tecnologias Utilizadas
 
